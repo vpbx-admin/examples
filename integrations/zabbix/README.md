@@ -54,7 +54,7 @@ addPrefix=""
 
 ### Konfiguracja w Zabbix:
 
-Oto przykład konfiguracj skryptu w Zabbix:
+Oto przykład konfiguracji skryptu w Zabbix:
 
 ![Zabbix](img/zabbix.png)
 
@@ -65,7 +65,7 @@ Oto przykład konfiguracj skryptu w Zabbix:
 
 Skrypt sendvoice.py umożliwia wysłanie wiadomości głosowej poprzez system VPBX.PL. 
 
- # Instalacja
+### Instalacja
 
 Plik należy umieścić w katalogu `/usr/lib/zabbix/alertscripts` oraz powinien być wykonywalny:
 
@@ -122,7 +122,7 @@ addPrefix=""
 
 ### Konfiguracja w Zabbix:
 
-Oto przykład konfiguracj skryptu w Zabbix:
+Oto przykład konfiguracji skryptu w Zabbix:
 
 ![Zabbix Voice](img/zabbix_voice.png)
 
