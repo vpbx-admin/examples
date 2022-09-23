@@ -1,4 +1,4 @@
-### Integracja VPBX.PL / Callapi.pl z Zabbix
+# Integracja VPBX.PL / Callapi.pl z Zabbix
 
 ## sendsms.py
 
@@ -11,7 +11,7 @@ dateutil
 datetime
 ```
 
-# Instalacja
+### Instalacja
 
 Plik należy umieścić w katalogu `/usr/lib/zabbix/alertscripts` oraz powinien być wykonywalny:
 
@@ -22,7 +22,7 @@ chmod +x sendsms.py
 ```
 
 
-# Konfiguracja
+### Konfiguracja
 
 Plik należy wyedytować i wpisać nazwę użytkownika i hasło. Można je uzyskać po zalogowaniu się do VPBX.PL w sekcji "Dostęp do API"
 
@@ -52,7 +52,7 @@ stripPrefix=1
 addPrefix=""
 ```
 
-#Konfiguracja w Zabbix:
+### Konfiguracja w Zabbix:
 
 Oto przykład konfiguracj skryptu w Zabbix:
 
@@ -75,7 +75,7 @@ wget https://raw.githubusercontent.com/vpbx-pl/examples/integrations/zabbix/send
 chmod +x sendvoice.py
 ```
 
-# Konfiguracja
+### Konfiguracja
 
 Plik należy wyedytować i wpisać nazwę użytkownika i hasło. Można je uzyskać po zalogowaniu się do VPBX.PL w sekcji "Dostęp do API"
 
@@ -120,7 +120,7 @@ stripPrefix=1
 addPrefix=""
 ```
 
-#Konfiguracja w Zabbix:
+### Konfiguracja w Zabbix:
 
 Oto przykład konfiguracj skryptu w Zabbix:
 
