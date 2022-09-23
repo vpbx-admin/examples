@@ -17,7 +17,7 @@ Plik należy umieścić w katalogu `/usr/lib/zabbix/alertscripts` oraz powinien 
 
 ```
 cd /usr/lib/zabbix/alertscripts
-wget https://raw.githubusercontent.com/vpbx-pl/examples/integrations/zabbix/sendsms.py
+wget https://raw.githubusercontent.com/vpbx-pl/examples/master/integrations/zabbix/sendsms.py
 chmod +x sendsms.py
 ```
 
@@ -71,7 +71,7 @@ Plik należy umieścić w katalogu `/usr/lib/zabbix/alertscripts` oraz powinien 
 
 ```
 cd /usr/lib/zabbix/alertscripts
-wget https://raw.githubusercontent.com/vpbx-pl/examples/integrations/zabbix/sendvoice.py
+wget https://raw.githubusercontent.com/vpbx-pl/examples/master/integrations/zabbix/sendvoice.py
 chmod +x sendvoice.py
 ```
 
